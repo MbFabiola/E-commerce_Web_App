@@ -102,7 +102,7 @@ Users sign in securely using their credentials. This screen separates customers 
 
 Users can update their profile details like name, email, and default shipping address to personalize their experience.
 
-![User Settings](./assets/user_settings.png)
+![User Settings](./assets/User_Settings.png)
 
 ---
 
