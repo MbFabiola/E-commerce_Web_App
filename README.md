@@ -134,8 +134,8 @@ Users can add products to their cart, adjust quantities, or remove items before 
 
 The two-step checkout process allows users to enter payment and shipping information, then confirm their order.
 
-![Checkout Step 1](./assets/User_checkout1.png)  
-![Checkout Step 2](./assets/User_checkout2.png)
+![Checkout Step 1](./assets/User_Checkout1.png)  
+![Checkout Step 2](./assets/User_Checkout2.png)
 
 ---
 
@@ -143,7 +143,7 @@ The two-step checkout process allows users to enter payment and shipping informa
 
 Customers can track the status of their orders: *Pending*, *Shipped*, or *Delivered*.
 
-![User Orders](./assets/user_orders.png)
+![User Orders](./assets/User_orders.png)
 
 ---
 
