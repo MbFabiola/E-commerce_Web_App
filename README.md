@@ -102,7 +102,7 @@ Users sign in securely using their credentials. This screen separates customers 
 
 Users can update their profile details like name, email, and default shipping address to personalize their experience.
 
-![User Settings](./assets/user_settings.png)
+![User Settings](./assets/User_Settings.png)
 
 ---
 
@@ -126,7 +126,7 @@ Products are listed by category. Users can view product names, prices, descripti
 
 Users can add products to their cart, adjust quantities, or remove items before proceeding to checkout.
 
-![User Cart](./assets/user_cart.png)
+![User Cart](./assets/User_cart.png)
 
 ---
 
@@ -134,8 +134,8 @@ Users can add products to their cart, adjust quantities, or remove items before 
 
 The two-step checkout process allows users to enter payment and shipping information, then confirm their order.
 
-![Checkout Step 1](./assets/user_checkout1.png)  
-![Checkout Step 2](./assets/user_checkout2.png)
+![Checkout Step 1](./assets/User_Checkout.png)  
+![Checkout Step 2](./assets/User_Checkout2.png)
 
 ---
 
@@ -143,7 +143,7 @@ The two-step checkout process allows users to enter payment and shipping informa
 
 Customers can track the status of their orders: *Pending*, *Shipped*, or *Delivered*.
 
-![User Orders](./assets/user_orders.png)
+![User Orders](./assets/User_orders.png)
 
 ---
 
@@ -168,9 +168,5 @@ Admins can manage and update the status of each order for improved customer comm
 - Payment gateway integration (e.g., Stripe or PayPal)
 - Inventory threshold alerts for admins
 - Email notifications for order events
-- Search and filter options for users
-
----
-
-## 🧪 Project Structure
+  
 
