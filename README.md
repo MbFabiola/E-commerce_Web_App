@@ -168,9 +168,5 @@ Admins can manage and update the status of each order for improved customer comm
 - Payment gateway integration (e.g., Stripe or PayPal)
 - Inventory threshold alerts for admins
 - Email notifications for order events
-- Search and filter options for users
-
----
-
-## 🧪 Project Structure
+  
 
