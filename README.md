@@ -126,7 +126,7 @@ Products are listed by category. Users can view product names, prices, descripti
 
 Users can add products to their cart, adjust quantities, or remove items before proceeding to checkout.
 
-![User Cart](./assets/user_cart.png)
+![User Cart](./assets/User_cart.png)
 
 ---
 
@@ -134,8 +134,8 @@ Users can add products to their cart, adjust quantities, or remove items before 
 
 The two-step checkout process allows users to enter payment and shipping information, then confirm their order.
 
-![Checkout Step 1](./assets/user_checkout1.png)  
-![Checkout Step 2](./assets/user_checkout2.png)
+![Checkout Step 1](./assets/User_checkout1.png)  
+![Checkout Step 2](./assets/User_checkout2.png)
 
 ---
 
