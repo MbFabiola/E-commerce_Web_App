@@ -1,0 +1,18 @@
+# Maven
+target/
+!target/*.jar
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Git
+.git/
+.gitignore
+
+# Misc
+*.log
+*.md
+mvnw
+mvnw.cmd 
