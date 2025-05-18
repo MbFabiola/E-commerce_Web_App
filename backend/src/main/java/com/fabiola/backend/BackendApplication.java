@@ -22,17 +22,27 @@ public class BackendApplication implements CommandLineRunner {
 		SpringApplication.run(BackendApplication.class, args);
 	}
 
+	@Override
 	public void run(String... args) {
-		List<User> adminAccount = userRepository.findByRole(Role.ADMIN);
-		if (adminAccount.isEmpty()) {
-			User user = new User();
-			user.setRole(Role.ADMIN);
-			user.setEmail("admin@gmail.com");
-			user.setFirstname("Admin");
-			user.setLastname("Manager");
-			user.setPhoneNumber("0789479289");
-			user.setPassword(new BCryptPasswordEncoder().encode("admin"));
-			userRepository.save(user);
+		System.out.println("=== BackendApplication starting CommandLineRunner ===");
+		try {
+			List<User> adminAccount = userRepository.findByRole(Role.ADMIN);
+			if (adminAccount.isEmpty()) {
+				User user = new User();
+				user.setRole(Role.ADMIN);
+				user.setEmail("admin@gmail.com");
+				user.setFirstname("Admin");
+				user.setLastname("Manager");
+				user.setPhoneNumber("0789479289");
+				user.setPassword(new BCryptPasswordEncoder().encode("admin"));
+				userRepository.save(user);
+				System.out.println("=== Admin user created successfully ===");
+			} else {
+				System.out.println("=== Admin user already exists ===");
+			}
+		} catch (Exception e) {
+			System.err.println("=== ERROR in CommandLineRunner ===");
+			e.printStackTrace();
 		}
 	}
 }
